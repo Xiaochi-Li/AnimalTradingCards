@@ -1,1 +1,44 @@
 /* add your CSS here */
+html{
+  box-sizing: content-box;
+}
+body{
+ padding: 0px;
+ margin: 0px;
+}
+
+.main{
+  border: 1px solid lightblue;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 0px 10px 10px 10px;
+}
+img{
+  width: 300px;
+}
+
+.text{
+  border: 1px solid lightblue;
+  margin-top: 16px;
+  padding:10px 10px 0px 10px;
+}
+
+.fact{
+  color:red;
+  margin-top: 0px;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ul li span{
+  font-weight:bold;
+}
